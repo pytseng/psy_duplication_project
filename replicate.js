@@ -32,3 +32,15 @@ $(document).ready(function(){
 		}	  
 	})	
 });
+
+$("#countdown").countdown360({
+  radius      : 60.5,
+  seconds     : 30,
+  strokeWidth : 15,
+  fillStyle   : '#0276FD',
+  strokeStyle : '#003F87',
+  fontSize    : 50,
+  fontColor   : '#FFFFFF',
+  autostart: true,
+  onComplete  : function () { console.log('FUCK YOU') }
+}).start()
