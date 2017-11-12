@@ -34,10 +34,16 @@ $(document).ready(function(){
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 $("#countdown").countdown360({
   radius      : 60.5,
   seconds     : 5,
+=======
+$("#countdown").countdown360({
+  radius      : 60.5,
+  seconds     : 30,
+>>>>>>> pytseng/master
 =======
 $("#countdown").countdown360({
   radius      : 60.5,
@@ -49,11 +55,16 @@ $("#countdown").countdown360({
   fontSize    : 50,
   fontColor   : '#FFFFFF',
 <<<<<<< HEAD
+<<<<<<< HEAD
   autostart: false,
   onComplete  : function () {
 		console.log('completed')
 		// window.location.href = "https://docs.google.com/forms/u/0/?tgif=d"
 	}
+=======
+  autostart: true,
+  onComplete  : function () { console.log('FUCK YOU') }
+>>>>>>> pytseng/master
 =======
   autostart: true,
   onComplete  : function () { console.log('FUCK YOU') }
