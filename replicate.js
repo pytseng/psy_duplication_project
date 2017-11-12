@@ -33,18 +33,29 @@ $(document).ready(function(){
 	})
 });
 
+<<<<<<< HEAD
 
 $("#countdown").countdown360({
   radius      : 60.5,
   seconds     : 5,
+=======
+$("#countdown").countdown360({
+  radius      : 60.5,
+  seconds     : 30,
+>>>>>>> pytseng/master
   strokeWidth : 15,
   fillStyle   : '#0276FD',
   strokeStyle : '#003F87',
   fontSize    : 50,
   fontColor   : '#FFFFFF',
+<<<<<<< HEAD
   autostart: false,
   onComplete  : function () {
 		console.log('completed')
 		// window.location.href = "https://docs.google.com/forms/u/0/?tgif=d"
 	}
+=======
+  autostart: true,
+  onComplete  : function () { console.log('FUCK YOU') }
+>>>>>>> pytseng/master
 }).start()
