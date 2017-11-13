@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 
 // order of the items
-var itemOrder = ['basketball','football','baseball','muscle','arnold','yoga']
+var itemOrder = ['volleyball','met','bat']
 
 //what position is the user in their cart
 var position = 0
@@ -54,14 +54,14 @@ function addItem(value){
 		$('#cat03').collapse('hide');
     //if they have all the items - take them to survey - they are done!
 		if(position>=itemOrder.length){
-			window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
+			// window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
 		}
 	}
 }
 //countdown timer for user - when done - redirect to the form!
 $("#countdown").countdown360({
   radius      : 60.5,
-  seconds     : 30,
+  seconds     : 60,
   strokeWidth : 15,
   fillStyle   : '#0276FD',
   strokeStyle : '#003F87',
@@ -70,6 +70,6 @@ $("#countdown").countdown360({
   autostart: false,
   onComplete  : function () {
 		console.log('completed')
-		window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
+		// window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
 	}
 }).start()

@@ -54,7 +54,7 @@ function addItem(value){
 		$('#cat03').collapse('hide');
     //if they have all the items - take them to survey - they are done!
 		if(position>=itemOrder.length){
-			window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
+			window.open("https://goo.gl/forms/UPJnCmT43htQucP43");
 		}
 	}
 }
@@ -70,6 +70,6 @@ $("#countdown").countdown360({
   autostart: false,
   onComplete  : function () {
 		console.log('completed')
-		window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
+		window.open("https://goo.gl/forms/UPJnCmT43htQucP43");
 	}
 }).start()

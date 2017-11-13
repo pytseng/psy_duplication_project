@@ -36,10 +36,11 @@ $(document).ready(function(){
 });
 
 // order of the items
-var itemOrder = ['basketball','football','baseball','muscle','arnold','yoga']
+var itemOrder = ['basketball','football','baseball',
+'muscle','arnold','yoga','glove','helmet','bat','paddle','pin']
 
 //what position is the user in their cart
-var position = 0
+var position = 0;
 //addItem is called when user selects on the correct item
 //parameter: value - for name of item selected by user
 function addItem(value){
@@ -52,10 +53,6 @@ function addItem(value){
 		$('#cat01').collapse('hide');
 		$('#cat02').collapse('hide');
 		$('#cat03').collapse('hide');
-    //if they have all the items - take them to survey - they are done!
-		if(position>=itemOrder.length){
-			window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
-		}
 	}
 }
 //countdown timer for user - when done - redirect to the form!
@@ -70,6 +67,6 @@ $("#countdown").countdown360({
   autostart: false,
   onComplete  : function () {
 		console.log('completed')
-		window.open("https://goo.gl/forms/vAoU5KlNVPBTEOCf2");
+		window.open("https://goo.gl/forms/4GAdugWkuhR4suQg1");
 	}
 }).start()
