@@ -1,12 +1,12 @@
 img{
-	max-width: 125px;
+	width: 150px;
+	height: 150px;
     padding: 5px;
 }
+
 #ad01,#ad02,#ad03{
 	max-width: 150px;
 }
-
-
 
 #countdown{
 	text-align: center;
