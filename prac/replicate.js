@@ -40,7 +40,7 @@ function addItem(value){
 //countdown timer for user - when done - redirect to the form!
 $("#countdown").countdown360({
   radius      : 60.5,
-  seconds     : 60,
+  seconds     : 30,
   strokeWidth : 15,
   fillStyle   : '#0276FD',
   strokeStyle : '#003F87',
